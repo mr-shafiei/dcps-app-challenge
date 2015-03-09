@@ -9269,3 +9269,9 @@ th.hide-for-touch {
     display: table-cell !important;
   }
 }
+/* line 6, ../scss/app.scss */
+.content {
+  margin: 50 50 50 50;
+  padding: 20 20 20 20;
+  background: grey;
+}
