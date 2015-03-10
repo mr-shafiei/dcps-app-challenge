@@ -9271,7 +9271,9 @@ th.hide-for-touch {
 }
 /* line 6, ../scss/app.scss */
 .content {
-  margin: 50 50 50 50;
-  padding: 20 20 20 20;
-  background: grey;
+  margin: 50px 50px 50px 50px;
+  padding: 20px 20px 20px 20px;
+  background: #3ba7e6;
+  display: block;
+  box-sizing: border-box;
 }
