@@ -1,16 +1,27 @@
 @import "settings";
 @import "foundation";
 
-
+body{
+	font-family:calibri;
+}
 
 .content {
 
 	margin: 50px 50px 50px 50px;
 	padding: 20px 20px 20px 20px;
+	color:white;
 
-	background:rgb(59, 167, 230);
+	background:grey;
 	display:block;
 	box-sizing:border-box;
 
 
 }
+
+
+.tab-bar {
+
+background: #005283;
+
+}
+

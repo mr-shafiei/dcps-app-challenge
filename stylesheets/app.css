@@ -9269,11 +9269,22 @@ th.hide-for-touch {
     display: table-cell !important;
   }
 }
-/* line 6, ../scss/app.scss */
+/* line 4, ../scss/app.scss */
+body {
+  font-family: calibri;
+}
+
+/* line 8, ../scss/app.scss */
 .content {
   margin: 50px 50px 50px 50px;
   padding: 20px 20px 20px 20px;
-  background: #3ba7e6;
+  color: white;
+  background: grey;
   display: block;
   box-sizing: border-box;
+}
+
+/* line 22, ../scss/app.scss */
+.tab-bar {
+  background: #005283;
 }
