@@ -1,8 +1,18 @@
 @import "settings";
 @import "foundation";
-@import url(../fonts/calibri.ttf);
+
+
+@font-face {
+
+font-family: 'Calibri';
+src: url(../fonts/calibri.ttf);
+
+	} 
+
+
+
 body{
-	font-family:calibri;
+	font-family:Calibri;
 }
 
 .content {

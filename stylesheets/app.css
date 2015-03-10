@@ -1,4 +1,3 @@
-@import url(../fonts/calibri.ttf);
 /* line 348, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-version {
   font-family: "/5.5.1/";
@@ -9270,12 +9269,16 @@ th.hide-for-touch {
     display: table-cell !important;
   }
 }
-/* line 4, ../scss/app.scss */
+@font-face {
+  font-family: 'Calibri';
+  src: url(../fonts/calibri.ttf);
+}
+/* line 14, ../scss/app.scss */
 body {
-  font-family: calibri;
+  font-family: Calibri;
 }
 
-/* line 8, ../scss/app.scss */
+/* line 18, ../scss/app.scss */
 .content {
   margin: 50px 50px 50px 50px;
   padding: 20px 20px 20px 20px;
@@ -9285,7 +9288,7 @@ body {
   box-sizing: border-box;
 }
 
-/* line 22, ../scss/app.scss */
+/* line 32, ../scss/app.scss */
 .tab-bar {
   background: #005283;
 }
