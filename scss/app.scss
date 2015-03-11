@@ -15,15 +15,19 @@ body{
 	font-family:Calibri;
 }
 
-.content {
+section.main-section {
+
+	background-image: url(../img/students.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-position: center; 
+}
+
+.home-box {
 
 	margin: 50px 50px 50px 50px;
 	padding: 20px 20px 20px 20px;
 	color:white;
-
-	background:grey;
-	display:block;
-	box-sizing:border-box;
 
 
 }
@@ -34,4 +38,5 @@ body{
 background: #005283;
 
 }
+
 
