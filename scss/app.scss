@@ -12,20 +12,26 @@ src: url(../fonts/calibri.ttf);
 
 
 body{
-	font-family:Calibri;
+
+	font-family:"Calibri";
+
+	background-image: url(../img/bell_blurr.jpg);
+	background:rgba(255,255,255,0.5);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-origin: border-box;
+
 }
 
 section.main-section {
 
-	background-image: url(../img/students.jpg);
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-    background-position: center; 
+
+
 }
 
 .home-box {
 
-	margin: 50px 50px 50px 50px;
+	margin: 20px 20px 20px 20px;
 	padding: 20px 20px 20px 20px;
 	color:white;
 
@@ -35,7 +41,7 @@ section.main-section {
 
 .tab-bar {
 
-background: #005283;
+background: #093f70;
 
 }
 

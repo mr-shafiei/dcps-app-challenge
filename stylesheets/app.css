@@ -9275,25 +9275,22 @@ th.hide-for-touch {
 }
 /* line 14, ../scss/app.scss */
 body {
-  font-family: Calibri;
-}
-
-/* line 18, ../scss/app.scss */
-section.main-section {
-  background-image: url(../img/students.jpg);
+  font-family: "Calibri";
+  background-image: url(../img/bell_blurr.jpg);
+  background: rgba(255, 255, 255, 0.5);
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center;
+  background-origin: border-box;
 }
 
-/* line 26, ../scss/app.scss */
+/* line 32, ../scss/app.scss */
 .home-box {
-  margin: 50px 50px 50px 50px;
+  margin: 20px 20px 20px 20px;
   padding: 20px 20px 20px 20px;
   color: white;
 }
 
-/* line 36, ../scss/app.scss */
+/* line 42, ../scss/app.scss */
 .tab-bar {
-  background: #005283;
+  background: #093f70;
 }
