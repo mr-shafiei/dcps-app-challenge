@@ -29,15 +29,38 @@ section.main-section {
 
 }
 
+.hp-slider {
+	max-height:200px;
+	overflow: hidden;
+
+	img {
+		width:110%;
+		
+	}
+}
+
 .home-box {
 
 	margin: 20px 20px 20px 20px;
 	padding: 20px 20px 20px 20px;
 	color:white;
 	background: rgba(255,255,255,0.8);
+    
+	p {
+    font-size: 1.2rem;
+    line-height: 1.1rem;
+  	}
+
+  	h2 {
+
+  		font-weight: bold;
+  		color: #093f70;
+  	}
 
 
 }
+
+
 
 
 .tab-bar {
@@ -46,4 +69,14 @@ background: #093f70;
 
 }
 
+.left-off-canvas-menu {
 
+background: #093f70;
+
+
+}
+
+ul.off-canvas-list li a:active {
+
+	background: #387ec9; 
+}

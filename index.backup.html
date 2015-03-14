@@ -32,10 +32,24 @@
         <li><a href="#"><img src="img/Science_W.png" Width="32">&nbsp;Science</a></li>
         <li><a href="#"><img src="img/SocStudies_W.png" Width="32">&nbsp;Social Studies</a></li>
       </ul>
-    </aside>
 
-
+ </aside>
     <section class="main-section" style="min-height:1000px;">
+
+          <canvas id="myCanvas" width="578" height="200"></canvas>
+    <script>
+      var canvas = document.getElementById('myCanvas');
+      var context = canvas.getContext('2d');
+
+      context.beginPath();
+      context.moveTo(500, 500);
+      context.lineTo(450, 50);
+      context.lineWidth = 110;
+
+      // set line color
+      context.strokeStyle = '#ff0000';
+      context.stroke();
+    </script>
 
 <div class="panel home-box">
 
