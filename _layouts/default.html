@@ -3,6 +3,7 @@
 <!-- OUR TEMPLATE FILE -->
 <html class="no-js" lang="en">
   <head>
+    <link rel="apple-touch-icon" sizes="60x60" href="{{ site.baseurl }}/img/DCPS_dome_large.png">
     <meta name="theme-color" content="#093f70">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -32,12 +33,16 @@
 
     <aside class="left-off-canvas-menu">
       <ul class="off-canvas-list">
+        <li class="profile-picture"><a href="#"><img src="{{ site.baseurl }}/img/kate.jpg" class="">&nbsp;Welcome KATE!</a>
+          
         <li><label>Classes</label></li>
         
         <li><a href="{{ site.baseurl }}/math"><img src="{{ site.baseurl }}/img/Math_W.png" width="32">&nbsp;Math</a></li>
         <li><a href="{{ site.baseurl }}/ELA"><img src="{{ site.baseurl }}/img/ELA_W.png" width="32">&nbsp;ELA</a></li>
         <li><a href="#"><img src="{{ site.baseurl }}/img/Science_W.png" Width="32">&nbsp;Science</a></li>
         <li><a href="#"><img src="{{ site.baseurl }}/img/SocStudies_W.png" Width="32">&nbsp;Social Studies</a></li>
+
+        <li><label>Settings</label></li>
       </ul>
 
  </aside>
@@ -66,9 +71,12 @@
     <script>
       $(document).ready(function(){
         $('.hp-slider').slick({
+           arrows: true,
            dots: true,
            infinite: true,
-           speed: 300
+           speed: 300,
+           autoplay: true,
+           autoplaySpeed: 3000
           });
         });
     </script>

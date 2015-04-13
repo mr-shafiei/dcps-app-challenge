@@ -9273,54 +9273,82 @@ th.hide-for-touch {
   font-family: 'Calibri';
   src: url(../fonts/calibri.ttf);
 }
-/* line 14, ../scss/app.scss */
+/* line 16, ../scss/app.scss */
+.profile-picture img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+/* line 23, ../scss/app.scss */
 body {
   font-family: "Calibri";
   background-image: url(../img/bell_blurr.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-size: cover;
   background-origin: border-box;
 }
 
-/* line 32, ../scss/app.scss */
+/* line 42, ../scss/app.scss */
 .hp-slider {
   max-height: 200px;
   overflow: hidden;
 }
-/* line 36, ../scss/app.scss */
+/* line 46, ../scss/app.scss */
 .hp-slider img {
   width: 110%;
 }
 
-/* line 42, ../scss/app.scss */
+/* line 52, ../scss/app.scss */
 .home-box {
   margin: 20px 20px 20px 20px;
   padding: 20px 20px 20px 20px;
   color: white;
   background: rgba(255, 255, 255, 0.8);
 }
-/* line 49, ../scss/app.scss */
+/* line 59, ../scss/app.scss */
 .home-box p {
   font-size: 1.2rem;
   line-height: 1.1rem;
 }
-/* line 54, ../scss/app.scss */
+/* line 64, ../scss/app.scss */
 .home-box h2 {
   font-weight: bold;
   color: #093f70;
 }
 
-/* line 66, ../scss/app.scss */
+/* line 76, ../scss/app.scss */
 .tab-bar {
   background: #093f70;
 }
 
-/* line 72, ../scss/app.scss */
+/* line 82, ../scss/app.scss */
 .left-off-canvas-menu {
   background: #093f70;
 }
 
-/* line 79, ../scss/app.scss */
+/* line 89, ../scss/app.scss */
 ul.off-canvas-list li a:active {
   background: #387ec9;
+}
+
+/* line 95, ../scss/app.scss */
+ul.off-canvas-list li label {
+  background: #181451;
+}
+
+/* line 101, ../scss/app.scss */
+ul.off-canvas-list li a:hover {
+  background: #04284d;
+}
+
+/* line 106, ../scss/app.scss */
+ul.off-canvas-list li a {
+  border-bottom: 1px solid #ffffff;
+}
+
+/* line 112, ../scss/app.scss */
+ul.off-canvas-list li label {
+  color: white;
 }
